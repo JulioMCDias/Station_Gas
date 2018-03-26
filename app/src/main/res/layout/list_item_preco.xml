@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/item_combustivel"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:text="teste"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="teste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/preto"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:lines="1"
+            android:id="@+id/item_preco"
+            android:layout_alignBaseline="@+id/item_combustivel"
+            android:layout_alignBottom="@+id/item_combustivel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

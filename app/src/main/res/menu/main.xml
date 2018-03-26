@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Logar"
+    android:id="@+id/menu_btn"
+    android:icon="@drawable/ic_logar"
+    app:showAsAction="always"
+    android:titleCondensed="Logar"
+    android:textColor="@color/azul_escuro"
+    android:visible="true"
+        android:enabled="true"
+        android:checkable="true" />
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bec5c5</color>
+    <color name="colorPrimaryDark">#a8b2b2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="windowBackground">#000080</color>
+    <color name="azul_escuro">#000080</color>
+    <color name="preto">#000000</color>
+    <color name="cinza_titulo">#e4e4eaf0</color>
+    <color name="amarelo_estrela">#fafd37</color>
+    <color name="cinza_escuro">#a4a4aa</color>
+
+</resources>

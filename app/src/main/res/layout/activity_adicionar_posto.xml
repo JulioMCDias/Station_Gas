@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_preco_atualizar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_unselected"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/preco_atualiz" />
+
+    <Button
+        android:text="@string/btn_aplicar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_aplicar"
+        style="@style/btn"
+        android:layout_alignBaseline="@+id/btn_cancelar"
+        android:layout_alignBottom="@+id/btn_cancelar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+    <Button
+        android:text="@string/btn_logar_cancelar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancelar"
+        style="@style/btn"
+        android:layout_marginTop="94dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_below="@+id/enderecoPosto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Endereço:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_combustivel"
+        android:textColor="@color/preto"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/nomePosto"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Nome do Posto:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/preto"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/preco_atualiz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/nomePosto"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/enderecoPosto"
+        android:layout_alignStart="@+id/enderecoPosto" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/enderecoPosto"
+        android:layout_below="@+id/nome_combustivel"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

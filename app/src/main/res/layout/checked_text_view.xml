@@ -1,0 +1,13 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkedTextView"
+    android:layout_width="match_parent"
+    android:layout_height="40sp"
+    android:clickable="false"
+    android:checked="true"
+    android:textColor="@color/azul_escuro"
+    android:textSize="15sp"
+    android:gravity="center"
+    android:duplicateParentState="false"
+    android:focusable="false"
+    android:checkMark="@drawable/checkbox_selector" />
+

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Ordenar Preço"
+        android:id="@+id/menu_btn_ordenar"
+        android:icon="@drawable/ic_ordenar_preco"
+        app:showAsAction="always"
+        android:textColor="@color/azul_escuro"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="true" />
+    <item
+        android:title="adicionar"
+        app:showAsAction="always"
+        android:id="@+id/menu_btn_adicionar"
+        android:icon="@android:drawable/ic_input_add"
+        android:textColor="@color/azul_escuro"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="true" />
+    <item
+        android:title="deletar"
+        app:showAsAction="always"
+        android:textColor="@color/azul_escuro"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="true"
+        android:id="@+id/menu_btn_deletar"
+        android:icon="@android:drawable/ic_delete" />
+
+</menu>

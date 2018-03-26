@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Station Gas</string>
+    <string name="app_name_titulo"> </string>
+    <string name="app_tela_logar">Login</string>
+    <string name="app_tela_info_posto">Informações do Posto</string>
+
+
+    <string name="btn_main_Buscar">Fazer Login</string>
+    <string name="btn_logar_ok">Fazer Login</string>
+    <string name="btn_logar_esqueceusenha">esqueceu sua senha?</string>
+    <string name="btn_logar_cancelar">cancelar</string>
+    <string name="btn_aplicar">Aplicar</string>
+    <string name="btn_next">proximo</string>
+
+
+    <string-array name="tipos_servicos">
+        <item>Loja de conveniências</item>
+        <item>Aberto 24hs</item>
+        <item>Lava-Rapido</item>
+        <item>Sanitário</item>
+        <item>Troca de óleo</item>
+    </string-array>
+
+    <string-array name="tipocombustiveis">
+        <item>Gasolina Comun</item>
+        <item>Gasolina Aditivada</item>
+        <item>Etanol</item>
+        <item>GNV</item>
+        <item>Diesel</item>
+        <item>Diesel S10</item>
+    </string-array>
+    <string name="title_activity_preco_atualizar">PrecoAtualizar</string>
+    <string name="title_activity_list_preco">Preço</string>
+    <string name="title_activity_adicionar_posto">novo posto</string>
+
+
+</resources>
